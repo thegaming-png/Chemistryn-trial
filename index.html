@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Chemistryn</title>
+</head>
+<body onload="reveal()">
+  <div id="headerThing">
+    <header class="text-gray-600 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <img src="Logo-removebg-preview.png" class="img_Main">
+          
+          <span class="ml-3 text-xl">Chemistryn</span>
+        </a>
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+          <a class="mr-5 hover:text-gray-900" href="#">Home</a>
+          <a class="mr-5 hover:text-gray-900" href="#">About</a>
+          <a class="mr-5 hover:text-gray-900" href="#mid">Contact Us</a>
+          <img src="outline_search_black_24dp.png" id="search">
+        </nav>
+        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login/Register
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+        
+      </div>
+    </header>
+  </div>
+  <div class="top reveal"  >
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap w-full mb-20">
+          <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">What we provide</h1>
+            <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+          </div>
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">We provide different Chemistry PDF'S of chemistry for <br> classes X, XI, XII from prof. Mahesh Kumar Lath</p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://rb.gy/yp7ymc" alt="content">
+              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Type: Class</h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Class X</h2>
+              <p class="leading-relaxed text-base">Get PDF of class X</p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://rb.gy/ygavu0" alt="content">
+              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Type: Class</h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Class XI</h2>
+              <p class="leading-relaxed text-base">Get PDF of class XI</p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://rb.gy/p40tdw" alt="content">
+              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Type: Class</h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Class XII</h2>
+              <p class="leading-relaxed text-base">Get PDF of class XII</p>
+            </div>
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <div class="bg-gray-100 p-6 rounded-lg">
+              <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://rb.gy/5ajal4" alt="content">
+              <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">Type: PDF</h3>
+              <h2 class="text-lg text-gray-900 font-medium title-font mb-4">See All PDF'S</h2>
+              <p class="leading-relaxed text-base">Didn't find what you are looking for?, check here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <br><br><br><br><br><br><br><br><br>
+  <div class="contact reveal" id="mid" >
+    <div class="mid">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder="Your Email">
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
+				<button class="btn">Send</button>
+			</div>
+		</div>
+	</div>
+  </div>
+  
+  <br><br><br><br><br><br><br><br><br>
+    
+  <div class="bottom" >
+    <footer class="text-gray-600 body-font">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img src="Logo-removebg-preview.png" class="img_Main">
+          <span class="ml-3 text-xl">Chemistryn</span>
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Chemistryn
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
